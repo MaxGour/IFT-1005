@@ -1,0 +1,33 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#txth1 {
+    text-decoration: underline;
+}
+
+#maindiv {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border: 1px solid black;
+    text-indent: 1%;
+    border-radius: 2%;
+    
+}
+
+#fuckassPhoto {
+    animation: goop 0.5s infinite;
+    margin: 2%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    height: 10px;
+}
+
+@keyframes goop {
+    25% {transform: rotate(360deg);}
+    50% {transform: rotateY(90deg)}
+    75% {transform: scale(300%);}
+}
